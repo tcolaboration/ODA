@@ -32,7 +32,7 @@ const initSdk = (name) => {
         if (isClientAuthEnabled) {
             Bots = new WebSDK(chatWidgetSettings, generateToken);
         } else {
-            Bots = new WebSDK(chatWidgetSettings);
+            Bots = new BaseComponent.WebSDK(chatWidgetSettings);
         }
 
         // Connect to the ODA
