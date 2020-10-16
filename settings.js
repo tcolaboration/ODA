@@ -2,7 +2,7 @@
 //test
 // Set client auth mode - true to enable client auth, false to disable it
 const isClientAuthEnabled = false;
-
+const BaseComponent = require("https://cdn.jsdelivr.net/gh/tcolaboration/ODA@main/web-sdk");
 /**
  * Initializes the SDK and sets a global field with passed name for which
  * it can be referred to later.
